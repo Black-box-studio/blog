@@ -21,7 +21,7 @@ const Footer = () => (
     <section className="flexStart footer">
         <div className="flex flex-col gap-12 w-full">
             <div className="flex items-start flex-col">
-                <Image src="/logo.svg" width={38} height={38} alt="logo" />
+                <Image src="/F_logo.svg" width={38} height={38} alt="logo" />
 
                 <p className="text-start text-sm font-normal mt-5 max-w-xs">
                     Blackboys is the world&apos;s leading Vfx studio for creatives to share, grow, and get hired.
