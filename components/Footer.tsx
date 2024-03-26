@@ -24,7 +24,7 @@ const Footer = () => (
                 <Image src="/F_logo.svg" width={38} height={38} alt="logo" />
 
                 <p className="text-start text-sm font-normal mt-5 max-w-xs">
-                    Blackboys is the world&apos;s leading Vfx studio for creatives to share, grow, and get hired.
+                    <span className="">Blackboys Studio</span> is the world&apos;s leading Vfx studio for creatives to share, grow, and get hired.
                 </p>
             </div>
             <div className="flex flex-wrap gap-12">

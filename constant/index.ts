@@ -1,15 +1,19 @@
 export const NavLinks = [
     { href: '/', key: 'Home', text: 'Home' },
-    { href: '/', key: 'CV', text: 'CV' },
-    { href: '/', key: 'Portfolio', text: 'Portfolio' },
-    { href: '/', key: 'Blog', text: 'Blog' },
-    { href: '/', key: 'About', text: 'About' },
-    { href: '/', key: 'Contact', text: 'Contact' },
-    { href: '/', key: 'Hub', text: 'Hub' },
-    { href: '/', key: 'Login', text: 'Login' },
-    { href: '/', key: 'Register', text: 'Register' }
+    { href: '/CV', key: 'CV', text: 'CV' },
+    { href: '/portfolio', key: 'Portfolio', text: 'Portfolio' },
+    { href: '/blog', key: 'Blog', text: 'Blog' },
+    { href: '/about', key: 'About', text: 'About' },
+    { href: '/hub', key: 'Hub', text: 'Hub',EventTarget: true },
+    { href: '/login', key: 'Login', text: 'Login' },
+
   ];
   
+  export const DropdownLinks = [
+    { href: '/html', key: 'HTML', text: 'CSS' },
+    { href: '/javascript', key:'Javascript', text: 'Javascript' },
+    { href: '/React', key: 'React', text: 'React' }, 
+  ];
   export const categoryFilters = [
     "Frontend",
     "Backend",
