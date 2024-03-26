@@ -52,7 +52,7 @@ const NavBar = () => {
                     </NavbarItem>
                 </NavbarContent>
             </NavbarContent>
-            {/* <ThemeSwitcher/> */}
+            <ThemeSwitcher/>
             <NavbarMenu className="text-center">
                 {NavLinks.map((link, index) => (
                 <NavbarMenuItem key={link.key} >

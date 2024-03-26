@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <section className="flex-start flex-col paddings mb-16">
-      <h1>Videos 1</h1>
+    <section className="relative flex-start flex-col paddings mb-16">
+      <video width={1280} height={720} src="https://youtu.be/VU23OPQ1Pmc?list=RDVU23OPQ1Pmc" autoPlay loop controls={false} ></video>
       <h1>Videos 2</h1>
       <h1>Videos 3
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, libero explicabo cupiditate ratione, sapiente nostrum aut accusantium ducimus sit officia dolor, iste est quae eos iusto quia quis veniam minima.
